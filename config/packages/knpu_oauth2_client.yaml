@@ -1,12 +1,3 @@
 knpu_oauth2_client:
     clients:
-        google:
-            type: google
-            client_id: '%env(OAUTH_GOOGLE_ID)%'
-            client_secret: '%env(OAUTH_GOOGLE_SECRET)%'
-            redirect_route: google_connect_check
-        azure:
-            type: azure
-            client_id: '%env(OAUTH_AZURE_ID)%'
-            client_secret: '%env(OAUTH_AZURE_SECRET)%'
-            redirect_route: azure_connect_check
+        # configure your clients as described here: https://github.com/knpuniversity/oauth2-client-bundle#configuration

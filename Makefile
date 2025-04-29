@@ -33,3 +33,6 @@ rector:
 rector-dry-run:
 	symfony composer update rector/rector
 	vendor/bin/rector process src --ansi --verbose --dry-run
+
+enter-php:
+	docker exec -it php_runtime_boilerplate sh
